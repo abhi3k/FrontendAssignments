@@ -1,0 +1,123 @@
+#first{
+    text-align: center;
+    background-color: rgb(235, 221, 221);
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;   
+    display: inline;
+    float: right;
+}
+#first:hover{
+    cursor:pointer;
+    box-shadow: 1px 5px 5px rgb(191, 186, 186);
+}
+
+a:hover{
+    color: burlywood;
+}
+
+#second{
+    display: inline;
+    float: right;
+    margin-top: 17px;
+    margin-right:45px;
+}
+
+#log{
+    display: inline;
+    float: right;
+    margin-top: 17px;
+    margin-right:25px;
+}
+
+#center img{
+    display: inline-block;
+    position: fixed;
+    width: 350px;
+    top: 220px;
+    left: 550px;
+}
+
+#center1 input{
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 3px;
+    display: inline-block;
+    position: fixed;
+    height: 30px;
+    width: 630px;
+    top: 353px;
+    left: 415px;
+}
+
+.mid2 *{
+    display: inline-block;
+    font-size: 20px;
+    position: fixed;
+    padding: 3px;
+    width: 180px;
+    top: 410px;
+    border-radius: 8px;
+}
+
+.mid2 *:hover{
+    background-color: rgb(221, 216, 208);
+    cursor: pointer;
+    box-shadow: 1px 5px rgb(191, 186, 186);
+}
+
+.mid2 #mid21{
+    left: 780px;
+}
+
+.mid2 #mid22{
+    left: 550px;
+}
+
+#bot1{
+    position: fixed;
+    width: 1530px;
+    height: 43px;
+    top: 656px;
+    background-color: rgb(229, 234, 238);
+}
+#bot1 > p{
+    color: slategrey;
+    margin-left: 8px;
+}
+
+#bottom1{
+    position: fixed;
+    width: 1530px;
+    height: 43px;
+    top: 700px;
+    background-color: rgb(229, 234, 238 );
+}
+
+.bot2 > #l1{  
+    font-size: medium;  
+    margin: 35px 55px 35px 15px;
+}
+.bot2 > #l2{  
+    font-size: medium;  
+    margin: 35px 55px 35px 15px;
+}
+.bot2 > #l3{  
+    font-size: medium;  
+    margin: 35px 55px 35px 15px;
+}
+.bot2 > #l4{  
+    font-size: medium;  
+    margin: 35px 685px 35px 15px;
+}
+.bot2 > #r1{  
+    font-size: medium;  
+    margin: 35px 35px 35px 15px;
+}.bot2 > #r2{  
+    font-size: medium;  
+    margin: 35px 35px 35px 15px;
+}.bot2 > #r3{  
+    font-size: medium;  
+    margin: 35px 35px 35px 15px;
+}
