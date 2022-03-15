@@ -10,6 +10,7 @@ body{
 
 #top{
     position: fixed;
+    width: 100%;
     font-size: 55px;
     text-decoration: underline;
     left: 30%;
@@ -53,6 +54,7 @@ div #pic{
 
 #bottom{
     position: fixed;
+    width: 100%;
     left: 30%;
     bottom: 1%;
     font-size: 55px;
