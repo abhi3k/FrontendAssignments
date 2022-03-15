@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(152, 243, 137);
+    margin-left: 250px;
+}
+
+.container{
+    position: relative;
+    background-image: linear-gradient(to left, white,rgb(245, 237, 237));
+    border-radius: 20px;
+    height: 720px;
+    width: 800px;
+}
+
+.photo-container{
+    position: relative;
+    top: 6%;
+    left: -6%;
+    background-color: rgb(87, 230, 87);
+    width: 350px;
+    height: 630px;
+    border-radius: 7px;
+}
+
+.main-photo{
+    position: relative;
+    top: 30px;
+    left: -22%;
+}
+
+.slice-photos{
+    position: relative;
+    background-color: white;
+    height: 150px;
+    top: 126px;
+    border-bottom-left-radius:  7px;    
+    border-bottom-right-radius:  7px;    
+}
+
+.demo-pics{
+    display: inline;
+    position: relative;
+    margin: 1px;
+    top: 40px;
+    left: 60px;
+}
+#full-apple{
+    border: 1px solid rgb(226, 217, 217);
+    border-radius: 5px;
+}
+
+.item-description{
+    position: relative;
+    left: 320px;
+}
+
+.content{
+    position: relative;
+    bottom: 600px;    
+    font-size: 40px;
+    font-family: Consolate Elf;
+    color: rgb(43, 39, 39);
+}
+.code{
+    position: relative;
+    bottom: 630px;
+    font-size: 17px;
+    font-family: Consolate Elf;
+    color: rgb(199, 179, 179);
+}
+
+.price::before{
+    content: "R$";
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.price{
+    position: relative;
+    bottom: 620px;
+    font-family: Menlo;
+    font-size: 60px;
+    color: rgb(233, 38, 12);
+}
+
+.rs{
+    position: relative;
+    left: -3%;
+}
+.dec{
+    position: relative;
+    bottom: 9px;
+    left: -9%;
+}
+.ps{
+    position: relative;
+    bottom: 2px;
+    left: -15%;
+}
+
+.select-color{
+    position: relative;
+    bottom: 620px;
+}
+
+.select-color > p{
+    color: rgb(149, 161, 172);
+    font-family: Consolas, monospace;
+}
+
+.select-color-photos *{
+    position: relative;
+    display: inline-block;
+    top: -5px;
+    left: 25px;
+}
+
+
+#apple-color:hover{
+    border: 1px solid rgb(221, 210, 210);
+}
+
+.benefits{
+    position: relative;
+    bottom: 620px;
+}
+.benefits p{
+    font-family: Consolas, monospace;
+    color: rgb(149, 161, 172);
+}
+
+.benefits li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cart{
+    position: relative;
+    bottom: 620px;
+    left: 320px;
+}
+
+.cart input{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(235, 17, 17);
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cart input:hover{
+    background-color: rgb(233, 69, 69);
+}
