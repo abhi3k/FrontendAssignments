@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contents</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: aqua;
+            text-align: center;
+        }
+        .container *{
+            flex: 1;
+            flex-direction: column;
+        }
+        .works > div{
+            margin: 25px;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        .works a{
+            margin-right: 100px;
+            color: blue;
+            font-size: xx-large;
+            font-family: Menlo;
+        }
+        /* @media(max-width: 700px){
+            .works{
+                flex-wrap: wrap
+            }
+        } */
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Repository-Contents</h1>
+    </div>
+    <div class="works">
+        <div>
+        <a href="https://abhi3k.github.io/FrontendAssignments/Assignment-1/index.html" target="blank">Form</a> 
+        <a href="https://abhi3k.github.io/FrontendAssignments/Assignment-2/index.html" target="blank">Cards</a>
+        <a href="https://abhi3k.github.io/FrontendAssignments/Google/index.html" target="blank">GoogleUI</a>
+        <a href="https://abhi3k.github.io/FrontendAssignments/DeliciousApples/index.html" target="blank">PriceTag</a>
+    </div>
+    </div>
+</body>
+</html>
